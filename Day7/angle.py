@@ -1,0 +1,8 @@
+import math
+AB = float(input())
+BC = float(input())
+t_rad = math.atan(AB/BC)
+t = round(math.degrees(t_rad))
+print(f"{t}\u00b0")
+
+#https://www.hackerrank.com/challenges/find-angle/problem?isFullScreen=true
