@@ -1,0 +1,9 @@
+import numpy
+
+numpy.set_printoptions(legacy='1.13')
+
+N, M = map(int, input().split())
+
+print(numpy.eye(N, M))
+
+#https://www.hackerrank.com/challenges/np-eye-and-identity/problem?isFullScreen=true
