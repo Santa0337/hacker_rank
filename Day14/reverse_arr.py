@@ -7,3 +7,5 @@ def arrays(arr):
 arr = input().strip().split(' ')
 result = arrays(arr)
 print(result)
+
+#https://www.hackerrank.com/challenges/np-arrays/problem?isFullScreen=true
