@@ -1,0 +1,10 @@
+import numpy
+
+n,m = map(int,input().split())
+arr = []
+for i in range(n):
+    arr.append(list(map(int,input().split())))
+res = numpy.sum(arr, axis=0)
+print(numpy.prod(res, axis = None))
+
+#https://www.hackerrank.com/challenges/np-sum-and-prod/forum
