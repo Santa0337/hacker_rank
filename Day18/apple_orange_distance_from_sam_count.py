@@ -22,11 +22,11 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     count_o=0
     for i in apples:
         i=i+a
-        if (s<= i <=t):
+        if (i>=s and i<=t):
             count_a+=1
     for j in oranges:
         j=j+b
-        if (s <= j <= t):
+        if (j>=s and j<=t):
             count_o+=1
 
     print(count_a)
