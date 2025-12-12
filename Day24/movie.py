@@ -32,6 +32,11 @@ def beautifulDays(i, j, k):
         if is_whole_number(n):
             count+=1
     return count
+    # count = 0
+    # for day in range(i, j+1):
+    #     if (day-int(str(day)[::-1])) % k == 0:
+    #         count += 1
+    # return count
     
 
 if __name__ == '__main__':
